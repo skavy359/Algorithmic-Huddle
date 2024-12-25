@@ -11,7 +11,7 @@ int main()
         int n;
         cin >> n;
 
-        cout<<(n+1)/10<<endl;
+        cout << (n+1)/10 << endl;
     }
     return 0;
 }
