@@ -17,6 +17,7 @@ string dayOfProgrammer(int year) {
     string ans="";
     if(year==1918){
         ans="26.09.1918";
+        return ans;
     }
     else if(year<1918){
         if(year%4==0){
