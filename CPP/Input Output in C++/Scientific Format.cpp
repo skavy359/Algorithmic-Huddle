@@ -8,4 +8,3 @@ int main() {
     cin>>a;
     cout<<scientific<<setprecision(4)<<a;
     return 0;
-}
