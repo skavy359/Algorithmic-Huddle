@@ -8,6 +8,6 @@ pair<int, int> makePair(int x, int y)
 {
     // your code here
     // Return a pair of X and Y
-    pair<int, int> ans = make_pair(x, y);
+    pair<int, int> ans(x, y);
     return ans;
 }
