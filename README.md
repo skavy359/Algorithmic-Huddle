@@ -8,7 +8,7 @@ A consolidated repository of my problem-solving journey across multiple competit
 - 🍽️ **CodeChef** – Time-bound competitive programming contests.
 - 🏛️ **Codeforces** – Classic and challenging algorithmic problems.
 - 💼 **HackerRank** – Skill-building problems and interview prep.
-- 📚 **GeeksForGeeks** – Topic-wise coding questions and concepts.
+- 📚 **GeeksForGeeks** – Topic-wise coding and competitive programming questions and concepts.
 
 ## 🚀 Purpose
 
@@ -23,4 +23,3 @@ To maintain a clean and organized archive of solved problems for revision, refer
 ---
 
 Feel free to explore and learn along!
-
