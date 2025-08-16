@@ -21,5 +21,3 @@ To maintain a clean and organized archive of solved problems for revision, refer
 - Easy navigation and reference
 
 ---
-
-Feel free to explore and learn along!
