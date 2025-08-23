@@ -19,5 +19,4 @@ To maintain a clean and organized archive of solved problems for revision, refer
 - Clean folder structure by platform
 - Version-controlled history of all problem solutions
 - Easy navigation and reference
-
 ---
