@@ -7,11 +7,13 @@ public:
         if (m * n != original.size())
             return ans;
         ans.resize(m, vector<int>(n));
+        int index = 0;
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
             {
-                ans[i][j] = original[i * n + j];
+                ans[i][j] = original[index];
+                index++;
             }
         }
         return ans;
