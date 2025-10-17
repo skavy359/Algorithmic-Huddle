@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int reverseNumber(int n)
+long long reverseNumber(long long n)
 {
-    int rev = 0;
+    long long rev = 0;
     while (n > 0)
     {
         rev = rev * 10 + (n % 10);
@@ -18,13 +18,13 @@ int main()
     cin >> t;
     while (t--)
     {
-        int a, b;
+        long long a, b;
         cin >> a >> b;
         a = reverseNumber(a);
         b = reverseNumber(b);
-        int sum = a + b;
-        int result = reverseNumber(sum);
-        cout << result << "endl";
+        long long sum = a + b;
+        long long result = reverseNumber(sum);
+        cout << result << endl;
     }
     return 0;
 }
