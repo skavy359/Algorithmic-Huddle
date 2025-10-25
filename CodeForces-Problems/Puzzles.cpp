@@ -10,13 +10,15 @@ int main()
     {
         cin >> arr[i];
     }
+
     sort(arr.begin(), arr.end());
     int diff = INT_MAX;
-    for (int i = 0; i < m - n; i++)
+    for (int i = 0; i <= m - n; i++)
     {
         int temp = arr[i + n - 1] - arr[i];
         diff = min(diff, temp);
     }
+
     cout << diff << endl;
     return 0;
 }
