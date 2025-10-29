@@ -32,7 +32,8 @@ int main()
             }
             cout << endl;
         }
-        cout << endl;
+        if (t)
+            cout << endl;
     }
     return 0;
 }
