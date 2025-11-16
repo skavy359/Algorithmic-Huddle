@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> arr(n);
+        for (int i = 0; i < n; i++)
+        {
+            cin >> arr[i];
+        }
+        sort(arr.begin(), arr.end());
+        int l = 0, r = n - 1, ans = 0;
+        while (l <= r)
+        {
+            ans += arr[r] - arr[l];
+            l++, r--;
+        }
+        cout << ans << endl;
+    }
+}
