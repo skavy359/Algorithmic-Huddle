@@ -7,8 +7,7 @@ public:
         // for(int i=0;i<bits.size()-1;i++){
         //     if(check){
         //         check=false;
-        //     }
-        //     else if(bits[i]==1){
+        //     } else if(bits[i]==1){
         //         check=true;
         //     }
         // }
