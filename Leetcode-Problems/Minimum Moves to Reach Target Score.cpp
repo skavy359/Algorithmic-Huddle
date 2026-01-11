@@ -6,16 +6,24 @@ public:
         int ans = 0;
         while (target != 1)
         {
-            if (target % 2 == 0 && maxDoubles > 0)
+            if (maxDoubles == 0)
             {
-                target /= 2;
-                maxDoubles--;
+                ans += target - 1;
+                target = 1;
             }
             else
             {
-                target--;
+                if (target % 2 == 0)
+                {
+                    target /= 2;
+                    maxDoubles--;
+                }
+                else
+                {
+                    target--;
+                }
+                ans++;
             }
-            ans++;
         }
         return ans;
     }
