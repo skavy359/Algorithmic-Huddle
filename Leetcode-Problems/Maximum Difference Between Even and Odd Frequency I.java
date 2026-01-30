@@ -20,7 +20,7 @@ class Solution {
             arr[c - 'a']++;
         }
         for (int i : arr) {
-            if (i % 2 == 0) {
+            if (i % 2 == 0 && i != 0) {
                 even = Math.min(even, i);
             } else {
                 odd = Math.max(odd, i);
