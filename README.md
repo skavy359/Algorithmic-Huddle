@@ -1,6 +1,6 @@
 # Algorithmic-Huddle
 
-A consolidated repository of my problem-solving journey across multiple competitive programming platforms. This coding repo serves as a central hub for structured solutions, learnings, and improvements over time.
+A consolidated repository of my problem-solving journey across multiple competitive programming platforms. This coding repo serves as a central hub for structured solutions, learnings, and improvements in problem-solving over time.
 
 ## 📂 Platforms Covered
 
