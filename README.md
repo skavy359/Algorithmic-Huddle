@@ -3,7 +3,6 @@
 A consolidated repository of my problem-solving journey across multiple competitive programming platforms. This coding repo serves as a central hub for structured solutions, learnings, and improvements in problem-solving over time.
 
 ## 📂 Platforms Covered
-
 - 📘 **LeetCode** – Data structures, algorithms, and system design problems.
 - 🍽️ **CodeChef** – Time-bound competitive programming contests.
 - 🏛️ **Codeforces** – Classic and challenging algorithmic problems.
@@ -11,7 +10,6 @@ A consolidated repository of my problem-solving journey across multiple competit
 - 📚 **GeeksForGeeks** – Topic-wise coding questions and concepts.
 
 ## 🚀 Purpose
-
 To maintain a clean and organized archive of solved problems for revision, reference, and sharing with peers or recruiters. Each folder represents a dedicated space for a specific platform.
 
 ## ✅ Features
@@ -19,4 +17,3 @@ To maintain a clean and organized archive of solved problems for revision, refer
 - Clean folder structure by platform
 - Version-controlled history of all problem solutions
 - Easy navigation and reference
----
