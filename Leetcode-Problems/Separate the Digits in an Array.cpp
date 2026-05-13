@@ -1,16 +1,16 @@
 class Solution {
-public:
-    vector<int> separateDigits(vector<int>& nums) {
-        vector<int> ans;
-        for (int i = nums.size() - 1; i >= 0; i--) {
-            int temp = nums[i];
-            while (temp) {
-                int rem = temp % 10;
-                ans.push_back(rem);
-                temp=temp/10;
+    public int[] separateDigits(int[] nums) {
+        List<Integer> list = new ArrayList<>();
+        for (int i : nums) {
+            String s = String.valueOf(i);
+            for (char c : s.toCharArray()) {
+                list.add(c - '0');
             }
         }
-        reverse(ans.begin(), ans.end());
+        int[] ans = new int[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            ans[i] = list.get(i);
+        }
         return ans;
     }
-};
+}
